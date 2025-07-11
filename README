@@ -1,0 +1,48 @@
+# 🔐 Caesar Cipher - Şifreleyici, Çözücü ve Otomatik Kırıcı
+
+Bu proje, klasik Caesar Cipher yöntemini kullanarak metinleri şifrelemeye, çözmeye ve brute-force (otomatik deneme) yöntemiyle şifreli metni kırmaya yarayan bir Python uygulamasıdır.
+
+---
+
+## Nasıl Kullanılır?
+
+### 1. Terminali aç
+### 2. Proje klasörüne git:
+```bash
+cd ~/PycharmProjects/caesar-cipher
+### 3. Uygulamayı başlat:
+```bash
+python3 caesar_cipher.py
+### 4. Karşınıza çıkan menüden bir işlem seçin:
+•	1: Metni şifrele
+•	2: Şifrelenmiş metni çöz
+•	3: Şifrelenmiş metni anahtarını bilmeden brute-force yöntemiyle kır
+## Ne İşe Yarar?
+•	Caesar Cipher mantığını uygulamalı öğrenmeni sağlar.
+•	Kriptografi ve brute-force saldırılar hakkında temel fikir verir.
+•	Eğitim ve CTF amaçlı kullanılabilir.
+
+## 🇬🇧 What is This?
+
+This project is a Python-based Caesar Cipher tool that allows you to:
+•	Encrypt text using a Caesar shift
+•	Decrypt text with a known key
+•	Automatically brute-force a Caesar-encrypted text without knowing the key
+## How to Use
+### 1. Open Terminal
+### 2. Navigation to the project folder:
+```bash
+cd ~/PycharmProjects/caesar-cipher
+### Run the script:
+```bash
+python3 caesar_cipher.py
+### 4. Choose one of the following options:
+•	1: Encrypt a message
+•	2: Decrypt a message (with known key)
+•	3: Auto-decrypt (brute-force all key possibilities)
+## Features
+•	Caesar encryption (with key)
+•	Decryption (with key)
+•	Brute-force attack (try all 25 possible Caesar keys)
+•	Case-sensitive (preserves upper/lower case letters)
+•	Works from the terminal, no external libraries needed
